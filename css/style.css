@@ -10,14 +10,21 @@ header {
   justify-content: space-between;
   padding: 3%;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .navegador {
   display: flex;
-  flex-direction: rows;
+  flex-direction: row;
   gap: 20px;
   color: white;
   align-items: center;
 }
-.itemnav {
-  flex-direction: rows;
-  justify-content: end;
+main {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
 }
