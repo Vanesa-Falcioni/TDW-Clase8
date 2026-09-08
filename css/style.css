@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+.navegador {
+  display: flex;
+  flex-direction: rows;
+  gap: 20px;
+  color: white;
+  align-items: center;
+}
+.itemnav {
+  flex-direction: rows;
+  justify-content: end;
+}
