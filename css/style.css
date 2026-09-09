@@ -8,7 +8,7 @@ header {
   background-color: #222222;
   display: flex;
   justify-content: space-between;
-  padding: 3%;
+  padding: 10px 40px;
 }
 .logo {
   display: flex;
@@ -26,5 +26,38 @@ main {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding: 40px 20px;
+  padding: 100px 20px;
+  align-items: flex-start;
+}
+
+.cajaderecha {
+  background-color: white;
+  margin: 0px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: #fc200c;
+  padding: 20px;
+}
+.logoinferior {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+.navegadorinferior {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  align-items: center;
+  margin-left: 5px;
 }
